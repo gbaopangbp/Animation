@@ -26,9 +26,16 @@
 //          withAttributes:@{NSFontAttributeName: helveticaBold,
 //                           NSForegroundColorAttributeName: magentaColor
 //                           }];
-    [myString drawAtPoint:CGPointMake(10, 10)
+//    _myString = @"hello";
+    [_myString drawAtPoint:CGPointMake(10, 10)
            withAttributes:@{NSFontAttributeName:helveticaBold,
                             NSForegroundColorAttributeName:magentaColor}];
+}
+
+//设置文字时自动更新ui
+- (void)setMyString:(NSString *)myString{
+    _myString = myString;
+    [self setNeedsDisplay];
 }
 
 

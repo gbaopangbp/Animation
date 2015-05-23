@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface AnnimationView : UIView
-
+@property(nonatomic,copy)NSString *myString;
 @end

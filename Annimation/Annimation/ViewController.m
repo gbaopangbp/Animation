@@ -21,6 +21,11 @@
     
     AnnimationView *view = [[AnnimationView alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
     [self.view addSubview:view];
+    view.myString = @"world";
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        view.myString = @"3ssss";
+    });
 }
 
 - (void)didReceiveMemoryWarning {
