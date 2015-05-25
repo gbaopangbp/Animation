@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1B8F133C-CA8C-4958-859C-CA441D3D1A5B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Annimation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8AFBC3BBB5A89333E2E33FA95663C32645DD9403</key>
+		<string>github.com:gbaopangbp/Animation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Annimation/Annimation.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8AFBC3BBB5A89333E2E33FA95663C32645DD9403</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:gbaopangbp/Animation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8AFBC3BBB5A89333E2E33FA95663C32645DD9403</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8AFBC3BBB5A89333E2E33FA95663C32645DD9403</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Animation</string>
+		</dict>
+	</array>
+</dict>
+</plist>

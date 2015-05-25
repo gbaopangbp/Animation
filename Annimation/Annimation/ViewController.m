@@ -15,9 +15,23 @@
 
 @implementation ViewController
 
+//列举font family和所有的字体名
+- (void) enumFontFamily{
+    for (NSString *familyName in [UIFont familyNames]) {
+        NSLog(@"%@",familyName);
+        for (NSString *fontName in [UIFont fontNamesForFamilyName:familyName]) {
+            NSLog(@"\t%@",fontName);
+        }
+    }
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    //列举所有的字体族和字体名
+    [self enumFontFamily];
+    
+    
     
     AnnimationView *view = [[AnnimationView alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
     [self.view addSubview:view];
